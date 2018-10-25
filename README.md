@@ -6,7 +6,7 @@
 
 环境使用的Pipenv
 ```bash
-pip install pipenv
+pip install pipenv --user
 ```
 ### 安装依赖包
 

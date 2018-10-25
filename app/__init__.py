@@ -15,7 +15,6 @@ def create_app(config_name):
     # db.create_all()
 
     from app.auth import blueprint as auth_blueprint
-    print(auth_blueprint)
     app.register_blueprint(auth_blueprint)
 
     return app

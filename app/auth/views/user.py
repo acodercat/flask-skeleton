@@ -2,10 +2,15 @@
 # -*- coding: utf-8 -*-
 
 from .. import blueprint
-from app.auth.models import user
+from ... import db
+from app.auth.models import User
 
 
 @blueprint.route('/login')
 def login():
-    print(user.User)
-    return 'login'
+    # user = User()
+    # user.email = '12121'
+    # user.username = 'codercat'
+    # db.session.add(user)
+    # db.session.commit()
+    return "login"
