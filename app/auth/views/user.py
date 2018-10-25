@@ -8,7 +8,7 @@ from app.auth.models import User
 
 @blueprint.route('/login')
 def login():
-    # user = User()
+    user = User()
     # user.email = '12121'
     # user.username = 'codercat'
     # db.session.add(user)

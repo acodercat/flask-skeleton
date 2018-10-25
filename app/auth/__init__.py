@@ -3,6 +3,6 @@
 
 from flask import Blueprint
 
-blueprint = Blueprint('blueprint', __name__)
+auth_blueprint = Blueprint('auth_blueprint', __name__)
 
-from . import views
+from . import views, errors
