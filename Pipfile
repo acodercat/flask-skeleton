@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2018.10.15"
+click = "==7.0"
+flask = "==1.0.2"
+flask-cors = "==3.0.6"
+flask-sqlalchemy = "==2.3.2"
+itsdangerous = "==0.24"
+markupsafe = "==1.0"
+six = "==1.11.0"
+werkzeug = "==0.14.1"
+"Jinja2" = "==2.10"
+SQLAlchemy = "==1.2.12"
+python-dotenv = "*"
+"psycopg2-binary" = "*"
+flask-migrate = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
